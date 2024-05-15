@@ -24,7 +24,7 @@ public class RefrigeratedContainer : Container
         }
     }
 
-    // Empties all cargo from the container, setting its mass back to zero.
+    
     public override void UnloadCargo()
     {
         Console.WriteLine($"Unloading cargo. {Mass} kg was removed from the container.");
